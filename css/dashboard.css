@@ -1,0 +1,67 @@
+.dash-wrap { padding-top: 8rem; min-height: 100vh; }
+.dash-header {
+  display: flex; justify-content: space-between; align-items: flex-end;
+  margin-bottom: var(--space-4);
+  flex-wrap: wrap; gap: var(--space-2);
+}
+.dash-header h1 { font-size: clamp(2rem, 4vw, 3rem); }
+.dash-header p { color: var(--fg-dim); margin-top: .5rem; }
+
+.kpi-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--space-2);
+  margin-bottom: var(--space-4);
+}
+.kpi {
+  padding: var(--space-3);
+  background: var(--bg-elev);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+.kpi .lbl { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.15em; color: var(--fg-mute); }
+.kpi .val { font-family: var(--font-display); font-size: 2.2rem; font-weight: 600; margin-top: .5rem; }
+.kpi .delta { display: none; }
+
+.dash-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: var(--space-3);
+}
+.panel {
+  background: var(--bg-elev);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: var(--space-3);
+}
+.panel h3 { margin-bottom: var(--space-2); font-size: 1.1rem; }
+
+.app-row {
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  gap: var(--space-2);
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--border);
+  align-items: center;
+}
+.app-row:last-child { border-bottom: none; }
+.app-row .title { font-weight: 500; }
+.app-row .sub { font-size: .82rem; color: var(--fg-mute); margin-top: .2rem; }
+.status {
+  font-size: .72rem; text-transform: uppercase; letter-spacing: 0.15em;
+  padding: .3rem .7rem; border-radius: 999px; border: 1px solid var(--border);
+}
+.status.review { color: #f4c542; border-color: #4a3e1a; background: #1f1a0a; }
+.status.interview { color: var(--accent); border-color: #4a1a1f; background: #1f0a0c; }
+.status.offer { color: #4ade80; border-color: #1a3a25; background: #0a1f12; }
+.status.rejected { color: var(--fg-mute); }
+
+.timeline { display: flex; flex-direction: column; gap: var(--space-2); }
+.tl-item { display: flex; gap: var(--space-2); }
+.tl-dot { width: 10px; height: 10px; border-radius: 50%; background: var(--accent); margin-top: 6px; flex-shrink: 0; }
+.tl-item .when { font-size: .75rem; color: var(--fg-mute); margin-top: .15rem; }
+
+@media (max-width: 960px) {
+  .kpi-row { grid-template-columns: repeat(2, 1fr); }
+  .dash-grid { grid-template-columns: 1fr; }
+}

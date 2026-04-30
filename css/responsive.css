@@ -1,0 +1,21 @@
+@media (max-width: 960px) {
+  .hero-grid { grid-template-columns: 1fr; gap: var(--space-4); }
+  .shield-wrap { order: -1; }
+  .shield-wrap svg { max-width: 220px; }
+  .about-grid { grid-template-columns: 1fr; gap: var(--space-3); }
+  .jobs-grid { grid-template-columns: repeat(2, 1fr); }
+  .stats { grid-template-columns: repeat(2, 1fr); }
+  .contact-grid { grid-template-columns: 1fr; }
+  .nav-links { gap: var(--space-2); }
+  .nav-links a:not(.btn) { display: none; }
+}
+
+@media (max-width: 600px) {
+  .jobs-grid { grid-template-columns: 1fr; }
+  .stats { grid-template-columns: repeat(2, 1fr); }
+  body { cursor: auto; }
+  .cursor-dot, .cursor-ring { display: none; }
+  button, a { cursor: pointer; }
+  .section { padding: var(--space-5) 0; }
+  .hero { padding-top: 6rem; }
+}

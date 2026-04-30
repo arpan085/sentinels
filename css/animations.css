@@ -1,0 +1,32 @@
+/* Cursor */
+.cursor-dot, .cursor-ring {
+  position: fixed;
+  top: 0; left: 0;
+  pointer-events: none;
+  z-index: 9999;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  will-change: transform;
+}
+.cursor-dot {
+  width: 6px; height: 6px;
+  background: var(--accent);
+}
+.cursor-ring {
+  width: 36px; height: 36px;
+  border: 1.5px solid var(--fg);
+  transition: width .3s ease, height .3s ease, background .3s ease, border-color .3s ease, mix-blend-mode .3s;
+  mix-blend-mode: difference;
+}
+.cursor-ring.hover {
+  width: 60px; height: 60px;
+  background: var(--fg);
+  border-color: var(--fg);
+}
+
+/* Block reveal initial state — set inline via GSAP for safety */
+.block { will-change: transform, opacity; }
+
+/* Hover scale utility */
+.hover-scale { transition: transform .3s ease; }
+.hover-scale:hover { transform: scale(1.02); }

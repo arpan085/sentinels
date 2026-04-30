@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Apply — sentinels.lol</title>
+  <link rel="stylesheet" href="../css/styles.css" />
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="../index.html" class="brand">
+        <svg viewBox="0 0 24 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12 1 L23 5 V14 C23 21 18 26 12 27 C6 26 1 21 1 14 V5 Z" fill="#e63946" stroke="#0a0a0a" stroke-width="1"/>
+          <path d="M8 14 L11 17 L16 11" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        sentinels.lol
+      </a>
+      <div class="nav-links">
+        <a href="../index.html#jobs">All jobs</a>
+        <a href="dashboard.html" class="btn btn-ghost">Dashboard</a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container" style="padding-top:8rem;padding-bottom:6rem;" data-job-view data-stage>
+    <a href="../index.html#jobs" style="color:var(--fg-mute);font-size:.88rem;" class="block">← Back to roles</a>
+
+    <div style="margin-top:1.5rem;display:grid;grid-template-columns:1.4fr 1fr;gap:var(--space-4);" class="job-layout">
+      <div>
+        <span class="job-tag block" data-job-tag></span>
+        <h1 class="block" style="font-size:clamp(2rem,4vw,3rem);margin:1rem 0;" data-job-title></h1>
+        <p class="block" style="font-size:1.1rem;color:var(--fg-dim);" data-job-desc></p>
+
+        <div class="block" style="display:flex;gap:var(--space-3);flex-wrap:wrap;margin:var(--space-3) 0;padding:var(--space-2);border:1px solid var(--border);border-radius:14px;background:var(--bg-elev);">
+          <div><div style="font-size:.7rem;letter-spacing:.15em;text-transform:uppercase;color:var(--fg-mute);">Location</div><div data-job-location style="margin-top:.25rem;"></div></div>
+          <div><div style="font-size:.7rem;letter-spacing:.15em;text-transform:uppercase;color:var(--fg-mute);">Type</div><div data-job-type style="margin-top:.25rem;"></div></div>
+          <div><div style="font-size:.7rem;letter-spacing:.15em;text-transform:uppercase;color:var(--fg-mute);">Salary</div><div data-job-salary style="margin-top:.25rem;color:var(--accent);"></div></div>
+        </div>
+
+        <h3 class="block" style="margin-top:var(--space-3);margin-bottom:var(--space-2);">What you'll bring</h3>
+        <ul class="block" data-job-reqs style="list-style:none;display:grid;gap:.6rem;"></ul>
+      </div>
+
+      <aside>
+        <form class="form" data-form="apply" data-stage style="position:sticky;top:6rem;padding:var(--space-3);border:1px solid var(--border);border-radius:14px;background:var(--bg-elev);">
+          <h3 class="block" style="margin-bottom:.25rem;">Apply</h3>
+          <p class="block" style="font-size:.85rem;color:var(--fg-mute);margin-bottom:.5rem;">Quick form — takes about a minute.</p>
+          <div class="form-group block"><label>Full name</label><input type="text" required /></div>
+          <div class="form-group block"><label>Email</label><input type="email" required /></div>
+          <div class="form-group block"><label>LinkedIn / Portfolio</label><input type="url" placeholder="https://" /></div>
+          <div class="form-group block"><label>Why this role?</label><textarea required></textarea></div>
+          <button class="btn btn-primary block" type="submit">Submit application</button>
+        </form>
+      </aside>
+    </div>
+  </main>
+
+  <style>
+    @media (max-width: 860px) {
+      .job-layout { grid-template-columns: 1fr !important; }
+    }
+  </style>
+
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script src="../data/jobs.js"></script>
+  <script src="../js/main.js"></script>
+  
+  <script src="../js/navigation.js"></script>
+  <script src="../js/form.js"></script>
+  <script src="../js/animations.js"></script>
+</body>
+</html>

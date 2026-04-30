@@ -1,0 +1,1 @@
+/* Cursor effect removed per user request. */

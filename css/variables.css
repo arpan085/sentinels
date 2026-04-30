@@ -1,0 +1,26 @@
+:root {
+  --bg: #0a0a0a;
+  --bg-elev: #131313;
+  --bg-elev-2: #1a1a1a;
+  --fg: #f2f2f2;
+  --fg-dim: #9a9a9a;
+  --fg-mute: #5a5a5a;
+  --accent: #e63946;
+  --accent-2: #ff4d5e;
+  --border: #232323;
+
+  --font-display: "Space Grotesk", "Inter", system-ui, sans-serif;
+  --font-body: "Inter", system-ui, sans-serif;
+
+  --space-1: 0.5rem;
+  --space-2: 1rem;
+  --space-3: 1.5rem;
+  --space-4: 2.5rem;
+  --space-5: 4rem;
+  --space-6: 6rem;
+
+  --radius: 14px;
+  --radius-sm: 8px;
+
+  --container: 1200px;
+}

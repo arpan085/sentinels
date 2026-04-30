@@ -1,0 +1,14 @@
+<svg viewBox="0 0 200 240" xmlns="http://www.w3.org/2000/svg" data-shield aria-label="Sentinels shield">
+  <defs>
+    <linearGradient id="g" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#ff4d5e"/>
+      <stop offset="100%" stop-color="#b91c2c"/>
+    </linearGradient>
+  </defs>
+  <path d="M100 8 L188 40 V120 C188 175 150 215 100 232 C50 215 12 175 12 120 V40 Z"
+        fill="url(#g)" stroke="#0a0a0a" stroke-width="3"/>
+  <path d="M100 60 L142 78 V128 C142 158 124 178 100 188 C76 178 58 158 58 128 V78 Z"
+        fill="#0a0a0a" opacity="0.85"/>
+  <path d="M82 122 L96 138 L122 108" stroke="#fff" stroke-width="6"
+        fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Dashboard — sentinels.lol</title>
+  <link rel="stylesheet" href="../css/styles.css" />
+  <link rel="stylesheet" href="../css/dashboard.css" />
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="../index.html" class="brand">
+        <svg viewBox="0 0 24 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12 1 L23 5 V14 C23 21 18 26 12 27 C6 26 1 21 1 14 V5 Z" fill="#e63946" stroke="#0a0a0a" stroke-width="1"/>
+          <path d="M8 14 L11 17 L16 11" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        sentinels.lol
+      </a>
+      <div class="nav-links">
+        <a href="../index.html#jobs">Jobs</a>
+        <a href="../index.html" class="btn btn-ghost">Sign out</a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container dash-wrap">
+    <div class="dash-header">
+      <div>
+        <span class="kicker" style="display:inline-block;font-size:.78rem;text-transform:uppercase;letter-spacing:.2em;color:var(--accent);">Welcome back</span>
+        <h1>Your <span class="highlight">applications</span></h1>
+        <p>Here's where things stand. Quiet day or busy one — it's all here.</p>
+      </div>
+      <a href="../index.html#jobs" class="btn btn-primary">Browse new roles</a>
+    </div>
+
+    <section class="kpi-row">
+      <div class="kpi"><div class="lbl">Active</div><div class="val">4</div></div>
+      <div class="kpi"><div class="lbl">Interviews</div><div class="val">2</div></div>
+      <div class="kpi"><div class="lbl">Offers</div><div class="val">1</div></div>
+      <div class="kpi"><div class="lbl">Saved roles</div><div class="val">7</div></div>
+    </section>
+
+    <section class="dash-grid">
+      <div class="panel">
+        <h3>Applications</h3>
+        <div class="app-row">
+          <div><div class="title">Senior Security Engineer</div><div class="sub">sentinels.lol · Remote · Applied 3 days ago</div></div>
+          <span class="status interview">Interview</span>
+          <a class="apply-link">View</a>
+        </div>
+        <div class="app-row">
+          <div><div class="title">Threat Intelligence Analyst</div><div class="sub">Northwave · London · Applied 5 days ago</div></div>
+          <span class="status review">In review</span>
+          <a class="apply-link">View</a>
+        </div>
+        <div class="app-row">
+          <div><div class="title">Frontend Developer</div><div class="sub">sentinels.lol · Berlin · Applied 1 week ago</div></div>
+          <span class="status offer">Offer</span>
+          <a class="apply-link">View</a>
+        </div>
+        <div class="app-row">
+          <div><div class="title">Offensive Security Specialist</div><div class="sub">Redforge · Remote · Applied 2 weeks ago</div></div>
+          <span class="status review">In review</span>
+          <a class="apply-link">View</a>
+        </div>
+      </div>
+
+      <div class="panel">
+        <h3>Recent activity</h3>
+        <div class="timeline">
+          <div class="tl-item">
+            <div class="tl-dot"></div>
+            <div>
+              <div>Interview scheduled — Senior Security Engineer</div>
+              <div class="when">Today · 10:42</div>
+            </div>
+          </div>
+          <div class="tl-item">
+            <div class="tl-dot" style="background:#4ade80"></div>
+            <div>
+              <div>Offer received — Frontend Developer</div>
+              <div class="when">Yesterday · 16:08</div>
+            </div>
+          </div>
+          <div class="tl-item">
+            <div class="tl-dot" style="background:#f4c542"></div>
+            <div>
+              <div>Application moved to review</div>
+              <div class="when">2 days ago</div>
+            </div>
+          </div>
+          <div class="tl-item">
+            <div class="tl-dot"></div>
+            <div>
+              <div>3 recruiters peeked at your profile</div>
+              <div class="when">3 days ago</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">© <span data-year></span> sentinels.lol</footer>
+
+  <script src="../js/main.js"></script>
+  <script src="../js/navigation.js"></script>
+</body>
+</html>
