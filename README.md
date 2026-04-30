@@ -63,10 +63,6 @@ The platform features a **hand-picked set of roles**, a clean interface, and a m
 
 ## 📂 Project Structure
 
----
-
-## 📂 Project Structure
-
 ```
 root/
 │
