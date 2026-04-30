@@ -1,7 +1,7 @@
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/348f5ef5-78b4-48ae-bc76-9ec0b870a13d" width="400"/>
+  <img src="https://i.imgur.com/jUA5f5J.png" width="400"/>
   <br/>
-  <em>Sentinels Dashboard Preview</em>
+  <em>Sentinels - Documentation</em>
 </p>
 
 
