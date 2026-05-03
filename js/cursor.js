@@ -1,1 +1,1 @@
-/* Cursor effect removed per user request. */
+/* Default system cursor — no custom cursor. */

@@ -23,7 +23,6 @@ body {
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   overflow-x: hidden;
-  cursor: none;
   line-height: 1.55;
 }
 
@@ -34,7 +33,6 @@ a {
 
 button {
   font-family: inherit;
-  cursor: none;
 }
 
 img, svg { display: block; max-width: 100%; }

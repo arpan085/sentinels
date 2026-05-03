@@ -161,7 +161,7 @@
   will-change: transform, filter;
 }
 .hero-shield:hover {
-  filter: saturate(100%) drop-shadow(0 20px 50px rgba(230,57,70,0.45));
+  filter: saturate(100%);
   transform: scale(1.04);
 }
 .shield-wrap svg { width: 100%; max-width: 320px; }
