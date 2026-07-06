@@ -7,9 +7,8 @@
 
 ## 👥 Team
 - Deshaj Subedi - *Lead Developer*
-- Agrim Mainali - *Content Writer / Brainstorming*
-- Arpan Baral - *Quality Assurance / Tester*
-- Yathartha Shrestha - *Designing / Wireframes*
+- Arpan Baral - *Designing / Tester*
+
 
 ---
 
