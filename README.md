@@ -7,8 +7,8 @@
 
 
 ## 👥 Team
-- Deshaj Subedi - *Lead Developer*
-- Arpan Baral - *Designing / Tester*
+- Deshaj Subedi 
+- Arpan Baral 
 
 
 ---
