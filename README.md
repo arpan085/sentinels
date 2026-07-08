@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <p align="center">
   <img src="https://i.imgur.com/jUA5f5J.png" width="400"/>
   <br/>
@@ -192,3 +193,7 @@ No commercial license is currently applied.
 ---
 
 
+=======
+# sentinels
+A cool modular application management website built with HTML, CSS &amp; JS. No backend - School Project
+>>>>>>> 872166060628649318379f2bf1cd73f8b91649cb
